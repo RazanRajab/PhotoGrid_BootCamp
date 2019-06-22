@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="380dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@color/colorBackground"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="x"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttons"
+        android:layout_gravity="right"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a method"
+        android:fontFamily="cursive"
+        android:textSize="35dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#ffff"
+            android:fontFamily="cursive"
+            android:background="@drawable/buttons"
+            android:text="Gallery"
+            android:layout_margin="5dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#ffff"
+            android:fontFamily="cursive"
+            android:background="@drawable/buttons"
+            android:text="Camera"
+            android:layout_margin="5dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/download"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#ffff"
+            android:fontFamily="cursive"
+            android:background="@drawable/buttons"
+            android:text="Download"
+            android:layout_margin="5dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
